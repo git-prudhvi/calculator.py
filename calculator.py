@@ -67,7 +67,7 @@ def division():  # Divide the two numbers
     else:
         return f'Dividing by {first_number} and 0 is not possible'  # 1/0
 
-
-menu()  # open Menu
+if __name__ == '__main__':   
+    menu()  # open Menu
 
 
